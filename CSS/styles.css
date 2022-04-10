@@ -675,15 +675,15 @@ margin-bottom: 4px;
     font: inherit;
     transition: background-color var(--anim-fast), border-color var(--anim-fast);
 }
-.form-comment::placeholder {
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 1.14;
-color: rgba(117, 117, 117, 0.5);}
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
 .form-comment {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 00.01em;
+    display: block;
     height: 120px;
     width: 100%;
     padding: 12px 16px;
@@ -694,6 +694,14 @@ color: rgba(117, 117, 117, 0.5);}
     font: inherit;
     resize: none;
 }
+.form-comment::placeholder {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+    color: rgba(117, 117, 117, 0.5);}
 .form-input:active, .form-input:focus, .form-comment:active, .form-comment:focus {
     border-color: var(--select-color);
 }
