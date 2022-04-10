@@ -630,17 +630,19 @@ letter-spacing: 0.03em;
 padding: 2px 2px 0 2px;
 color: var(--main-grey);
 }
-.form-item {
+.form-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;}
+.form-item {
+   
     margin-top: 12px;
 }
 .form-item:not(:last-child) {
     margin-bottom: 10px;
 }
 .form-label {
-
+display: block;
 font-family: var(--main-font);
 font-style: normal;
 font-weight: 400;
