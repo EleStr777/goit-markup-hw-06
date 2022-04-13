@@ -723,8 +723,7 @@ textarea {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-    
+    color: rgba(117, 117, 117, 0.5); 
 }
 .form-input:focus + .modal-icon, .form-input:hover + .modal-icon {
     fill: var(--select-color);
